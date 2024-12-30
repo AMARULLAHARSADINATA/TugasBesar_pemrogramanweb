@@ -8,7 +8,7 @@ use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 
-class HashUserPasswords extends Command
+class MyCustomCommand extends Command
 {
     /**
      * Nama dan signature perintah
@@ -29,5 +29,3 @@ class HashUserPasswords extends Command
         // Logika untuk memhash password pengguna
     }
 }
-
-
